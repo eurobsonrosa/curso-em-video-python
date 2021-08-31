@@ -1,0 +1,6 @@
+nome = input('DIGITE O NOME DA SUA CIDADE: ')
+nome = nome.strip()
+nome = nome.upper()
+nome = nome.split()
+print('COMEÇA COM SANTO? ',end='')
+print('SANTO' in nome[0])

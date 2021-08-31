@@ -1,0 +1,8 @@
+print('='*20+' MANIPULAÇÃO DE STRING '+'='*20)
+nc = input('DIGITE SEU NOME COMPLETO:')
+nc = nc.strip()
+print('Nome com letras maiúsculas: {}'.format(nc.upper()))
+print('Nome com letras minúsculas: {}'.format(nc.lower()))
+print('Total de letras {}'.format(len(nc) - nc.count(' ')))
+dividido = nc.split()
+print('Primeiro Nome é {} tem {} letras '.format(dividido[0],len(dividido[0])))
